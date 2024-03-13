@@ -1,0 +1,47 @@
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.table th {
+  color: #1d5d9b;
+  font-weight: bolder;
+  font-size: larger;
+}
+.InputArea {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  padding: 4rem;
+  gap: 1rem;
+}
+.tableContainer {
+  background-color: #fffef9;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tableInput {
+  text-align: center;
+}
+label {
+  color: #1d5d9b;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+span {
+  font-size: 24px;
+}
